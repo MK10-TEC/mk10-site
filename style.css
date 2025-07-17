@@ -1,32 +1,90 @@
 
-body {
+/* Reset básico */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #121212;
+    background-color: #1f1f1f; /* Cinza antracito suave */
     color: #f0f0f0;
+    line-height: 1.6;
+    overflow-y: auto;
 }
+
+/* Cabeçalho */
 header {
-    background-color: #1f1f1f;
-    padding: 20px;
+    background-color: #1a1a1a; /* Preto fosco */
+    padding: 20px 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
+
+header h1 {
+    color: #ffffff;
+    font-size: 2em;
+}
+
 nav a {
-    margin: 0 10px;
-    color: #f0f0f0;
+    color: #cccccc;
+    margin: 0 15px;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
+
 nav a:hover {
-    text-decoration: underline;
+    color: #ff6600; /* Laranja metálico */
 }
-.hero {
-    padding: 50px;
+
+/* Seções principais */
+section {
+    padding: 60px 20px;
     text-align: center;
 }
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #ff6600;
+}
+
+section p {
+    color: #b0b0b0; /* Cinza metálico */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Lista (valores, missão etc.) */
+ul {
+    list-style: none;
+    padding: 20px;
+    color: #d0d0d0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Rodapé */
 footer {
-    background-color: #1f1f1f;
+    background-color: #1a1a1a;
+    color: #999;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    section {
+        padding: 40px 10px;
+    }
 }
