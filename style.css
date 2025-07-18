@@ -39,7 +39,7 @@ a {
 .top-nav {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 0px;
   margin-top: 0px;
   margin-bottom: 5px;
 }
