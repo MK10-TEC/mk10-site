@@ -17,36 +17,26 @@ a {
   background-image: url('assets/hero4_escuro_base.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center -60px;
-  height: 270px;
-  padding: 15px 20px;
+  background-position: center -50px;
+  padding: 30px 20px 20px;
   text-align: center;
-  position: relative;
   color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
 }
 
 /* === LOGO CENTRALIZADO === */
 .logo {
   width: 320px;
   height: auto;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
-/* === LINKS DENTRO DO HEADER === */
+/* === MENU DE NAVEGAÇÃO === */
 .top-nav {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: auto;
-  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .top-nav a {
+  margin: 0 15px;
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
@@ -91,18 +81,12 @@ footer {
 
 /* === RESPONSIVO === */
 @media screen and (max-width: 768px) {
-  .top-nav {
-    flex-direction: column;
-    gap: 10px;
-  }
-
   .logo {
     width: 220px;
   }
 
-  .hero-header {
-    height: 230px;
-    background-position: center -40px;
-    padding: 10px;
+  .top-nav a {
+    display: block;
+    margin: 8px 0;
   }
 }
