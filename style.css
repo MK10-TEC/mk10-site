@@ -39,8 +39,8 @@ a {
 .top-nav {
   display: flex;
   justify-content: center;
-  gap: 0px;
-  margin-top: 0px;
+  gap: 30px;
+  margin-top: -90px;
   margin-bottom: 5px;
 }
 
