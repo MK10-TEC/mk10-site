@@ -15,21 +15,21 @@ a {
 /* === HERO HEADER COM IMAGEM E LOGO === */
 .hero-header {
   background-image: url('assets/hero4_escuro_base.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  padding: 30px 20px 20px;
+  aspect-ratio: 16 / 5; /* proporção mais baixa, para deixar a imagem "esticada" na largura e mais rasa */
   text-align: center;
   position: relative;
   color: #fff;
-  min-height: 400px;
 }
 
 /* === LOGO CENTRALIZADO === */
 .logo {
   width: 300px;
   height: auto;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* === LINKS NO TOPO, HORIZONTAIS === */
@@ -95,7 +95,8 @@ footer {
   }
 
   .hero-header {
-    padding: 20px 10px;
-    min-height: 300px;
+    aspect-ratio: unset;
+    padding: 30px 10px;
+    min-height: 320px;
   }
 }
