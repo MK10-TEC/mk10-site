@@ -17,7 +17,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center -50px;
-  padding: 30px 20px 80px;
+  padding: 30px 20px 110px;
   text-align: center;
   color: #fff;
   position: relative;
@@ -28,7 +28,7 @@ a {
 
 /* === LOGO CENTRALIZADO === */
 .logo {
-  width: 410px;
+  width: 480px;
   height: auto;
   margin-bottom: 10px;
 }
