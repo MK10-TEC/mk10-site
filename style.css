@@ -13,6 +13,8 @@ a {
 
 /* === HERO HEADER COM IMAGEM E LOGO === */
 .hero-header {
+  max-width: 900px;
+  margin: 0 auto;
   background-image: url('assets/hero4_escuro_base.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,7 +39,6 @@ a {
 
 /* === MENU DE NAVEGAÇÃO === */
 .top-nav {
-  background: red;
   display: flex;
   justify-content: center;
   gap: 30px;
