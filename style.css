@@ -13,8 +13,6 @@ a {
 
 /* === HERO HEADER COM IMAGEM E LOGO === */
 .hero-header {
-  max-width: 900px;
-  margin: 0 auto;
   background-image: url('assets/hero4_escuro_base.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,7 +60,7 @@ a {
 
 /* === CONTEÚDO GERAL === */
 main {
-  max-width: 900px;
+  max-width: 100%;
   margin-top: 0px;
   margin-bottom: 40px;
   padding: 0 20px;
