@@ -17,27 +17,32 @@ a {
   background-image: url('assets/hero4_escuro_base.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
-  height: 300px; /* altura reduzida */
-  padding: 20px 20px 10px;
+  background-position: center -60px; /* sobe o fundo para mostrar melhor o skyline e circuito */
+  height: 270px;
+  padding: 20px;
   text-align: center;
   position: relative;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* === LOGO CENTRALIZADO === */
 .logo {
-  width: 300px;
+  width: 280px;
   height: auto;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
-/* === LINKS NO TOPO, HORIZONTAIS === */
+/* === LINKS NO TOPO, DENTRO DO HEADER === */
 .top-nav {
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .top-nav a {
@@ -95,7 +100,8 @@ footer {
   }
 
   .hero-header {
-    height: 250px;
+    height: 220px;
+    background-position: center -40px;
     padding: 15px 10px;
   }
 }
