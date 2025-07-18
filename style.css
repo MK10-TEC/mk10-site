@@ -1,3 +1,4 @@
+
 /* === RESET E BASE === */
 body {
   margin: 0;
@@ -14,19 +15,21 @@ a {
 /* === HERO HEADER COM IMAGEM E LOGO === */
 .hero-header {
   background-image: url('assets/hero4_escuro_base.png');
-  background-size: cover;
-  background-position: center;
-  padding: 60px 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 30px 20px 20px;
   text-align: center;
   position: relative;
   color: #fff;
+  min-height: 400px;
 }
 
 /* === LOGO CENTRALIZADO === */
 .logo {
-  width: 200px;
+  width: 300px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 /* === LINKS NO TOPO, HORIZONTAIS === */
@@ -88,10 +91,11 @@ footer {
   }
 
   .logo {
-    width: 160px;
+    width: 200px;
   }
 
-  main {
-    padding: 0 10px;
+  .hero-header {
+    padding: 20px 10px;
+    min-height: 300px;
   }
 }
